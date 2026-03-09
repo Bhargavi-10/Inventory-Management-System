@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Search Results</h1>
+    <div id="resultsContainer">
+        <table id="resultsTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+
+                <!--js will fill rows here-->
+            </tbody>
+        </table>
+        <p id="noResults" style="display:none; font-style:italic; color:#777;"></p>
+    </div>
+
+    <button class="back-btn" onclick="history.back()">Back to Dashboard</button>
+    <script src="search_results.js"></script>
+</body>
+</html>
